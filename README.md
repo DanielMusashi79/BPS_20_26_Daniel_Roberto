@@ -6,6 +6,16 @@ Consolidar, tratar e analisar a base de dados do Banco de Preços em Saúde (BPS
 ## 2. Contextualização do Problema
 O gerenciamento e a transparência nas compras públicas de medicamentos no Brasil representam um grande desafio devido ao expressivo volume de transações descentralizadas e às variações de preços entre regiões e modalidades licitatórias. A falta de uma visão analítica unificada dificulta a identificação de discrepâncias de preços, a otimização de orçamentos públicos e o planejamento estratégico de aquisições de insumos hospitalares.
 
+## 2.1. Perguntas de Negócio Direcionadoras
+Para orientar a construção dos visuais e garantir o alinhamento com a gestão de compras públicas, o dashboard foi estruturado para responder às seguintes questões:
+
+1. **Volume e Impacto Financeiro:** Qual é o montante total licitado e a quantidade de itens adquiridos pelo BPS entre 2020 e 2026?
+2. **Evolução Temporal:** Como os gastos públicos com medicamentos se comportaram ao longo dos anos? Houve picos atípicos de investimento?
+3. **Distribuição Geográfica:** Quais Unidades Federativas (UFs) concentram o maior volume orçamentário de compras públicas de medicamentos?
+4. **Competitividade e Processos:** Qual é a representatividade das modalidades de compra (ex: Pregão vs. Dispensa) na alocação dos recursos?
+5. **Concentração de Insumos:** Quais são os 10 medicamentos/itens de maior impacto financeiro no orçamento global?
+6. **Alcance e Rede:** Quantas instituições compradoras e fornecedores distintos participaram das transações cadastradas?
+
 ## 3. Fonte dos Dados
 Os dados brutos foram obtidos diretamente do portal aberto do **Banco de Preços em Saúde (BPS)**, mantido pelo Ministério da Saúde do Brasil, referentes aos anos de 2020 a 2026.
 
